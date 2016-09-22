@@ -17,9 +17,7 @@ var hero = {
   isBankrupt: false,
   payRent: function() {
     this.cash -= this.rent;
-    if (this.cash < 0) {
-      this.isBankrupt = true;
-    }
+    this.cash < 0 ? this.isBankrupt = true : this.isBankrupt = false; 
   }  
 }
 module.exports = hero;

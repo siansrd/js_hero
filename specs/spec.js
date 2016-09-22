@@ -11,7 +11,6 @@ describe ( 'Hero', function() {
       hero.health = 50;
     })
 
-
   it ('has a name', function() {
     assert.strictEqual( "Yoko", hero.name );
   })
